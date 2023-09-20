@@ -6,10 +6,24 @@
   width: 416px;
   height: 844px;
 }
+.capture{
+  top: 740px;
+  left: 150px;
+  font-weight: 600
+}
 .qrCodeWallStickersVinylDe {
   position: absolute;
   top: 227px;
   left: 44px;
+  border-radius: var(--br-26xl);
+  background-color: #f4f4f4;
+  width: 324px;
+  height: 444px;
+}
+.container{
+  position: absolute;
+  top: 327px;
+  left: 20px;
   border-radius: var(--br-26xl);
   background-color: #f4f4f4;
   width: 324px;

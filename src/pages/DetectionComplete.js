@@ -6,7 +6,7 @@ const DetectionComplete = () => {
   const navigate = useNavigate();
 
   const onFrameContainerClick = useCallback(() => {
-    navigate("/home-screen");
+    navigate("/");
   }, [navigate]);
 
   return (

@@ -4,6 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import StartPageImage from "./components/StartPageImage";
 import HomeScreen from "./pages/HomeScreen";
 import FailedVerification from "./pages/FailedVerification";
 import ShiftToUser from "./pages/ShiftToUser";
@@ -99,10 +100,7 @@ function App() {
       <Route path="/failed-verification" element={<FailedVerification />} />
       <Route path="/iphone-14-18" element={<ShiftToUser />} />
       <Route path="/iphone-14-17" element={<UserReadyToVerify />} />
-      <Route
-        path="/succesful-verification"
-        element={<SuccesfulVerification />}
-      />
+      <Route path="/succesful-verification" element={<SuccesfulVerification />}/>
       <Route path="/user-verification" element={<UserVerification />} />
       <Route path="/ready-to-verify" element={<ReadyToVerify />} />
       <Route path="/iphone-14-10" element={<ReachedRider />} />

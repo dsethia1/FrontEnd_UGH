@@ -16,12 +16,25 @@
   cursor: pointer;
 }
 .loading {
-  top: 740px;
+  top: 780px;
   left: 151px;
   font-weight: 600;
   color: var(--color-white);
   display: inline-block;
   width: 270px;
+}
+.capture{
+  top: 740px;
+  left: 150px;
+  font-weight: 600
+}
+.Web{
+  top: 320px;
+  left: 37px;
+  border-radius: var(--br-26xl);
+  width: 324px;
+  height: 870px; 
+  flex: 1
 }
 .qrCodeWallStickersVinylDe {
   position: absolute;
@@ -30,7 +43,7 @@
   border-radius: var(--br-26xl);
   background-color: #e8e8e8;
   width: 324px;
-  height: 470px;
+  height: 370px;
 }
 .frameItem {
   position: absolute;
